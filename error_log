@@ -1,0 +1,269 @@
+[05-Apr-2017 08:15:02 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gaocdent/public_html/calendar/database1.php on line 9
+[05-Apr-2017 08:16:40 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:16:40 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:16:51 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:16:51 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:16:51 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:16:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gaocdent/public_html/calendar/database.php on line 9
+[05-Apr-2017 08:17:42 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:17:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:17:46 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:17:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:17:46 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:18:48 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:18:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:18:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[05-Apr-2017 08:18:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:18:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:18:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:18:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:19:22 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:19:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[05-Apr-2017 08:19:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:22:13 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:22:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:22:18 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:22:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:22:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:22:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:22:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:22:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:22:34 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:22:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:22:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:23:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:23:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:23:23 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:23:23 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:23:29 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:23:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:23:34 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:23:34 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:24:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:24:43 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:24:43 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:25:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:25:31 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:25:31 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:25:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:25:34 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:25:34 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:25:39 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:25:39 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:25:39 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:26:18 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:26:18 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:26:18 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:26:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:26:23 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:26:23 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:27:42 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:27:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:27:42 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:27:42 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 08:27:49 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 08:27:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 3
+[05-Apr-2017 16:27:49 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:27:49 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 16:28:57 Asia/Taipei] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 33
+[05-Apr-2017 16:28:57 Asia/Taipei] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 33
+[05-Apr-2017 16:28:57 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:28:57 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 16:29:02 Asia/Taipei] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 33
+[05-Apr-2017 16:29:02 Asia/Taipei] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 33
+[05-Apr-2017 16:29:02 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:1) in /home/gaocdent/public_html/calendar/index.php on line 62
+[05-Apr-2017 16:29:02 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 138
+[05-Apr-2017 16:31:06 Asia/Taipei] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/index.php:61) in /home/gaocdent/public_html/calendar/index.php on line 63
+[05-Apr-2017 16:31:06 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:31:07 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:31:11 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:32:07 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:32:07 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:32:10 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:32:13 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:32:14 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:32:24 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:32:24 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:33:04 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:33:05 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:33:35 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:33:36 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:33:38 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:33:39 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:33:46 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:33:47 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:33:57 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:34:04 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:34:05 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:35:03 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:35:14 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:35:16 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:35:22 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:35:23 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:36:14 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 16:36:25 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:36:26 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:36:29 UTC] PHP Fatal error:  Class 'DBController' not found in /home/gaocdent/public_html/calendar/home.php on line 89
+[05-Apr-2017 08:38:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:38:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 16:39:30 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:39:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:40:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:40:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:40:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:40:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:40:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:40:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:40:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:40:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/addEvent.php:22) in /home/gaocdent/public_html/calendar/addEvent.php on line 36
+[05-Apr-2017 08:42:32 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:42:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:42:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:42:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/gaocdent/public_html/calendar/getEvents.php:5
+Stack trace:
+#0 /home/gaocdent/public_html/calendar/getEvents.php(5): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 {main}
+  thrown in /home/gaocdent/public_html/calendar/getEvents.php on line 5
+[05-Apr-2017 08:46:45 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:46:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:47:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:47:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:48:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:49:03 UTC] PHP Warning:  session_start(): Cannot send session cookie - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:49:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:49:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[05-Apr-2017 08:49:09 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:49:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[05-Apr-2017 16:50:16 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:50:16 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:50:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:50:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[05-Apr-2017 16:51:03 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[05-Apr-2017 08:51:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:51:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:54:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 08:54:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 702
+[05-Apr-2017 09:01:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:01:21 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 702
+[05-Apr-2017 09:02:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:02:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 83
+[05-Apr-2017 09:02:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 702
+[05-Apr-2017 09:02:46 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:02:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
+[05-Apr-2017 09:02:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 702
+[05-Apr-2017 09:04:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:04:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 702
+[05-Apr-2017 09:05:58 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:05:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 208
+[05-Apr-2017 09:07:03 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:07:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 294
+[05-Apr-2017 09:07:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:07:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 294
+[05-Apr-2017 09:07:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:07:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 294
+[05-Apr-2017 09:07:39 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:07:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 294
+[05-Apr-2017 09:07:42 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:07:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 294
+[05-Apr-2017 09:08:36 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:08:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/gaocdent/public_html/calendar/home.php on line 294
+[05-Apr-2017 09:08:49 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:09:28 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:09:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:11:19 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:11:48 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:12:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:12:44 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[05-Apr-2017 09:13:30 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/search.php on line 3
+[05-Apr-2017 09:13:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gaocdent/public_html/calendar/loadsearch1.php on line 18
+[05-Apr-2017 09:22:34 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/search.php on line 3
+[05-Apr-2017 09:22:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gaocdent/public_html/calendar/loadsearch1.php on line 18
+[06-Apr-2017 10:28:43 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[06-Apr-2017 10:28:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
+[08-Apr-2017 17:18:16 Asia/Taipei] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/gaocdent/public_html/calendar/index.php on line 139
+[08-Apr-2017 09:18:17 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 09:18:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 09:19:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 09:22:25 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/search.php on line 3
+[08-Apr-2017 09:22:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gaocdent/public_html/calendar/loadsearch1.php on line 18
+[08-Apr-2017 09:23:05 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/search.php on line 3
+[08-Apr-2017 09:23:05 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gaocdent/public_html/calendar/loadsearch1.php on line 18
+[08-Apr-2017 09:24:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 09:24:33 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 09:58:50 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 09:59:20 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 10:12:21 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 10:12:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[08-Apr-2017 10:12:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
+[08-Apr-2017 12:10:27 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[08-Apr-2017 12:10:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[08-Apr-2017 12:10:27 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
+[10-Apr-2017 03:45:41 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[10-Apr-2017 03:45:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[10-Apr-2017 03:45:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
+[12-Apr-2017 01:02:47 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[12-Apr-2017 01:02:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[12-Apr-2017 01:02:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
+[17-Apr-2017 01:02:23 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 4
+[17-Apr-2017 01:02:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 12
+[17-Apr-2017 01:02:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gaocdent/public_html/calendar/editblockoff/dbcontroller.php:41) in /home/gaocdent/public_html/calendar/home.php on line 56
